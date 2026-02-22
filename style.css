@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 10% 0;
+    background-image: url(1.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 0.5rem 2rem 4rem ;
+    background-image: url(header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: -1.5rem;
+    border-radius: 1rem;
+}
+header img{
+    height: 9rem;
+}
+main{
+    background-image: url(main.png);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 1rem;
+    gap: 1rem;
+    color: white;
+    overflow: hidden;
+}
